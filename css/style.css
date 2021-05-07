@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*
+Author:Alvi Escobar
+Email:Alvi@gmail.com
+Website:Alvi.com
+
+*/
+
+/*
+
+==Index==
+1.header
+2. Fusce at  
+3.Facilisis
+4.Ante donec
+5. Blandit rhoncus 
+6. Placerat
+7.footer
+
+*/
+*/ Global css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 31px;
+}
+h6{
+    font-size: 16px;
+}
+.hero-btn{
+    padding: 7px 70px;
+    font-size: 19px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #612316;
+    margin-bottom: 48px;
+}
+h2{
+    font-size: 31px;
+}
+p{
+font-size: 16px;
+}
+.our-news-btn{
+margin: 0px auto;
+    display: block;
+    padding: 7px 35px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 25px;
+    color: #4e5159;
+}
+h3{
+    font-size: 31px;
+}
+
+
+/*Theme Css*/
+.nav-link {
+    color: #31353e;
+    margin: 0px 10px;
+}
+.nav-header{
+    padding: 30px 0px;
+    background-color: #edeff1;
+}
+.nav-link.js-scroll-trigger.active{
+    background-color: #dd4b2b;
+    padding: 7px 25px;
+    border-radius: 25px;
+    color: white;
+}
+.hero{
+    width: 100%;
+    float: left;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 25px 0px;
+}
+.hero-main {
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+}
+.hero-main h2{
+font-size: 72px;
+font-weight: 300;
+}
+.hero-main h3{
+font-size: 31px;
+font-weight: 700;
+    margin-bottom: 80px;
+}
+.food-one{
+    text-align: center;
+}
+.food-one h1{
+   color: white;
+    font-weight: 700;
+    margin: 23px;
+}
+.food-one h6{
+   color: white;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.abt-btn{
+   text-align: center;
+    display: block;
+}
+.our-news{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #edeff1;
+    padding: 60px 0px;
+}
+.our-news h2{
+    font-weight: bold;
+}
+.our-one{
+margin-top: 60px;
+}
+.our-one h1{
+    font-size: 26px;
+    color: #31353e;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.our-one h6{
+    color: #31353e;
+        line-height: 30px;
+}
+
+.news-letter{
+    width: 100%;
+    float: left;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/footer-footer.jpg)no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+        background-position: center top;
+}
+.abt-newsletter{
+    text-align: center;
+}
+.abt-newsletter h1{
+    color: white;
+    font-weight: bold;
+}
+.abt-newsletter h6{
+color: white;
+    font-weight: 300;
+}
+.abt-newsletter p{
+    color: white;
+    font-weight: 300;
+}
+.abt-po{
+    position: relative;
+}
+.form-control{
+    background: transparent;
+    font-size: 18px;
+    border-radius: 25px;
+}
+.submite-btn{
+  position: absolute;
+    right: 13px;
+    top: 0px;
+    padding: 6px 54px;
+    font-size: 18px;
+    border-radius: 25px;
+    background-color: white;
+    color: chocolate;
+    border: 1px solid white;
+        display: block;
+}
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.ipsum{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+    padding: 30px 0px;
+}
+.space{
+    padding: 15px 0px;
+}
+.ipsum-first h1{
+    font-weight: bold;
+}
+.ipsum-first h6{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.ipsum-first p{
+       font-size: 15px;
+    margin-top: 30px;
+}
+.sign-btn{
+      padding: 7px 70px;
+    font-size: 19px;
+    background-color: #dd4b2b;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #fff;
+}
+.ipsum-first{
+margin-top: 30px;
+}
+.ipsum-two{
+    margin-top: 30px;
+}
+.ipsum-two h1 {
+    font-weight: bold;
+}
+.ipsum-two h6 {
+     font-size: 15px;
+    margin-top: 15px;
+}
+.ipsum-two p {
+       font-size: 15px;
+    margin-top: 30px;
+}
+.ipsum-img{
+    margin-top: 20px;
+    text-align: center;
+}
+.location{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    background-color: #d75d0e;
+}
+.abt-location ul{
+    list-style: none;
+}
+.abt-location ul li{
+    color: white;
+    font-size: 18px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    font-weight: 300;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/footer-footer.jpg)no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 80px 0px;
+}
+.abt-footer{
+    text-align: center;
+}
+.abt-footer h6{
+    color: white;
+    font-weight: 300;
+    
+}
+.abt-footer span{
+    font-weight: bold;
+}
+::-webkit-input-placeholder { /* */
+  color: #ffffff !important;
+}
+
+
+
+/*Media quary*/
+@media (min-width: 320px) and (max-width: 576px){
+    .hero-main {
+          padding-top: 175px;
+}
+    .hero-main h2{
+        font-size: 25px;
+    }
+    .hero-main h3{
+       font-size: 15px;
+    margin-bottom: 65px;
+    }
+    .form-control{
+        margin-left: -40px;
+    font-size: 11px;
+    }
+    .submite-btn{
+      font-size: 10px;
+    padding: 7px 24px;
+    right: 35px;
+    display: block;
+    }
+    .ipsum-first h1{
+        text-align: center;
+    }
+    .ipsum-first h6{
+        text-align: center;
+    }
+    .ipsum-first p{
+        text-align: center;
+    }
+    .sign-btn{
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .ipsum-two h1{
+                text-align: center;
+
+    }
+    .ipsum-two h6{
+                text-align: center;
+
+    }
+    .ipsum-two p{
+         text-align: center;
+    }
+    .ipsum-two{
+        padding: 20px 0px;
+    }
+    .location{
+        padding: 20px 0px;
+    }
+    
+}
+@media (min-width: 576.01px) and (max-width: 768px){
+    .hero-main{
+        margin-top: 375px;
+    }
+    .hero-main h2{
+        
+    }
+    .form-control{
+            margin-left: -120px;
+    }
+    .ipsum-first h1{
+    text-align: center;    
+    }
+    .ipsum-first h6{
+            text-align: center;  
+    }
+    .ipsum-first p{
+            text-align: center;  
+    }
+    .sign-btn{
+       
+        margin: 0px auto;
+        display: block;
+    }
+    .ipsum-two h1{
+         text-align: center;
+    }
+    .ipsum-two h6{
+         text-align: center;
+    }
+    .ipsum-two p{
+         text-align: center;
+    }
+}
+@media (min-width: 768.01px) and (max-width: 992px){
+    .hero-main h2{
+            font-size: 50px;
+    }
+    .hero-main h3{
+        font-size: 20px;
+        font-size: 20px;
+    }
+    .food-one h1{
+            font-size: 22px;
+    }
+    .food-one h6{
+        
+    }
+    .space{
+        padding: 0px 0px;
+    }
+}
+
